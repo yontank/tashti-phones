@@ -1,0 +1,46 @@
+.deleteButton {
+  width: 40%;
+  outline: none;
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 1.25em;
+}
+
+.editButton {
+  width: 40%;
+  outline: none;
+  background-color: aqua;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 1.25em;
+}
+
+.addButton {
+  width: 40%;
+  outline: none;
+  background-color: limegreen;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 1.25em;
+}
+
+.mainHeader {
+  text-align: center;
+  
+}
+.subHeader { 
+  text-align: center;
+}
+
+.btnContainer { 
+ display: flex;
+ justify-content: space-evenly;
+ width: 100%;
+}

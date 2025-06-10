@@ -1,0 +1,86 @@
+.mainHeader {
+  text-align: center;
+  color: whitesmoke;
+  padding-bottom: 0.2em;
+}
+
+.inputContainer {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 25em;
+  height: 35em;
+}
+
+.label {
+  font-size: 32px;
+  padding-left: 0.75em;
+  display: block;
+}
+
+.input {
+  border: none;
+  outline: none;
+  display: inline-block;
+
+  width: 8em;
+  height: 2em;
+  border-radius: 2em;
+
+  font-size: 32px;
+}
+
+.submitButton {
+  margin-top: 0.4em;
+  width: 8em;
+  height: 1.5em;
+
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  font-size: 32px;
+  color: white;
+  background-color: #77ad78;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #627f65;
+}
+
+.error {
+  color: red;
+  font-size: large;
+}
+
+/* THREE INPUT */
+.threeInputContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.threeInput {
+  border-radius: 4px;
+
+  width: 4em;
+  height: 1.5em;
+  font-size: 15px;
+  display: inline;
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+
+.threeInputLabel {
+  display: block;
+  font: "Jost";
+  font-size: 20px;
+}
+
+.threeInputDiv {
+  width: 9em;
+  height: 1.5em;
+}

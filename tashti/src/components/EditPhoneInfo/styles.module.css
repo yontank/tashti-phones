@@ -1,0 +1,112 @@
+.inputStyle {
+  display: block;
+  height: 2.4em;
+  border-radius: 2em;
+  border-width: 1px;
+  font-size: larger;
+}
+
+.inputStyle:focus {
+  outline: none !important;
+  border: 1px solid #93f491;
+  box-shadow: 0 0 10px #719ece;
+  border-color: #93f491;
+}
+
+.labelStyle {
+  display: block;
+  font-weight: 700;
+}
+
+.title {
+  text-align: center;
+  padding: "0.45em 0em";
+}
+
+.outDiv {
+  width: 70vw;
+  height: 90vh;
+  background-color: #f1f5f6;
+  display: block;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.inDiv {
+  width: 80%;
+  height: 90%;
+  background-color: #ffffff;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.aronDiv {
+  display: inline-block;
+}
+
+.aronDivLabel {
+  display: block;
+}
+
+.aronDivUtpInput {
+  width: 4em;
+  height: 2.4em;
+  border-radius: 10px 0 0 10px;
+  margin-right: -1px;
+}
+.aronDivAronInput {
+  height: 2.4em;
+}
+
+.submitButton {
+  width: 12em;
+  height: 4em;
+  background-color: #93f491;
+  color: #fff;
+
+  position: absolute;
+  bottom: 0%;
+  right: 40%;
+  translate: transformX(-50%);
+  margin-bottom: 2em;
+  outline: none;
+  border: none;
+  border-radius: 2em;
+  font-weight: 700;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.shirshurContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 14em;
+  /* background-color: #719ece; */
+  margin-bottom: 4px;
+}
+
+.shirshurInput {
+  /* display: block; */
+  font-size: 22px;
+  max-width: 4em;
+  text-align: center;
+  border-radius: 1.25em;
+}
+
+.shirshurLabel {
+  /* display: inline-block; */
+  margin-left: 0.8em;
+}
+
+.Container{
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

@@ -1,0 +1,8 @@
+.gridContainer {
+    display: grid;
+    /* grid-gap: 2.5em; */
+    grid-template-columns: repeat(3, 5fr);
+
+    height: max-content;
+    width: max-content;
+}
