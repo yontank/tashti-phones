@@ -1,5 +1,7 @@
 # Tashti
-### What?
+<img width="2342" height="1539" alt="image" src="https://github.com/user-attachments/assets/5a394b17-78d8-4c1e-a850-c939c6b2b79b" />
+
+### What is this?
 Tashti is a cross-platform desktop application for managing analog phone lines. It allows users to store phone numbers, track ownership, and visualize how lines are connected. Tashti is designed to help organizations maintain and update their phone infrastructure, especially during events like office relocations or disconnections.
 ### Why?
 The Idea came When I started working at my former job, seeing alot of the analog lines being used inside Excel SpreadSheets, While it did show the phone numbers, It Didn't show nestings, how they were trully connected to new people, and how long ago was it changed and by who.
