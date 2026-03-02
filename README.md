@@ -12,3 +12,11 @@ The Idea came When I started working at my former job, seeing alot of the analog
 - Reassign or disconnect lines as infrastructure changes
 - Store data locally using SQLite
 - Available on Windows, macOS, and Linux (built with Electron)
+
+# Installation
+```
+git clone https://github.com/yontank/tashti-phones tashti
+cd tashti/tashti
+npm install
+npm start
+```
